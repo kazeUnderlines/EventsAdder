@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Adding an event</string>
+    <string-array name="exercises">
+        <item>划船</item>
+        <item>硬舉</item>
+        <item>擺盪</item>
+    </string-array>
+    <string-array name="numbers">
+        <item>1組</item>
+        <item>2組</item>
+        <item>3組</item>
+        <item>4組</item>
+        <item>5組</item>
+        <item>6組</item>
+        <item>7組</item>
+        <item>8組</item>
+        <item>9組</item>
+        <item>10組</item>
+    </string-array>
+    >
+    <string name="spnEx_prompt">動作</string>
+    <string name="spnSet_prompt">組數</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_event">Adding an event</string>
+</resources>

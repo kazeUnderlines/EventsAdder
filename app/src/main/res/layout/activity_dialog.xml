@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DialogActivity">
+
+    <Spinner
+        android:id="@+id/spnExcs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/exercises"
+        android:prompt="@string/spnEx_prompt"
+        android:layout_gravity="center"
+        />
+
+    <Spinner
+        android:id="@+id/spnSets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/numbers"
+        android:prompt="@string/spnSet_prompt"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAdd"
+        android:text="@string/add"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
